@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <title>Topic</title>
+</head>
+<body>
+    <h1 id="title" onclick="addTest()">Homepage</h1>
+    <ul id="myUL"></ul>
+    <div id="test"></div>
+    <input type="button" onclick="window.location.assign('test.html');" />
+
+    <input type="text" id="categoryInput" placeholder="Category" style="display: none;">
+    <span onclick="newCategory()" id="categoryAddBtn" class="addBtn" style="display: none;">Add</span>
+    <br/>
+    <input type="text" id="topicInput" placeholder="Topic" style="display: none;">
+    <span onclick="newTopic()" id="topicAddBtn" class="addBtn" style="display: none;">Add</span>
+    <br/>
+    <input type="text" id="toDoInput" placeholder="ToDo" style="display: none;">
+    <span onclick="newToDo()" id="toDoAddBtn" class="addBtn" style="display: none;">Add</span>
+
+    <script src="main.js"></script>
+</body>
+</html>
